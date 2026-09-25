@@ -1,6 +1,6 @@
-import React, { useReducer, useState } from "react";
+import { useReducer, useState } from "react";
 import { taskReducer } from "../reducers/taskReducer";
-import { useTheme } from "../context/ThemeContext";
+import { useTheme } from "../constants/ThemeContext";
 import { LIGHT_THEME } from "../constants/theme";
 import styles from "./TaskManager.module.css";
 
