@@ -1,5 +1,4 @@
-import React from "react";
-import { useTheme } from "../context/ThemeContext";
+import { useTheme } from "../constants/ThemeContext";
 import styles from "./Navbar.module.css";
 import { DARK_THEME, LIGHT_THEME } from "../constants/theme";
 
@@ -17,5 +16,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-	
